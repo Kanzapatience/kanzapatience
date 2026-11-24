@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="Tech stack. Data and SQL: PostgreSQL, SQL, star schema, data quality. Analysis and ML: Python, pandas, scikit-learn, statistics. BI and delivery: Power BI, DAX, Excel, Git.">
+  <defs>
+    <style>
+      .t{font-family:'Segoe UI',Inter,-apple-system,Helvetica,Arial,sans-serif}
+      .m{font-family:Consolas,'SFMono-Regular',Menlo,monospace}
+      .card{fill:#0f1a2b;stroke:#24324a}
+      .h{font-size:13px;letter-spacing:2.5px;fill:#7d93ab}
+      .chip rect{fill:#111c2e;stroke:#2a3a52}
+      .chip text{font-size:15px;fill:#e6edf3}
+      .in{animation:f .7s ease-out both}
+      @keyframes f{from{opacity:0}}
+    </style>
+  </defs>
+
+  <g class="in" style="animation-delay:.05s">
+    <rect class="card" x="1" y="1" width="380" height="248" rx="16"/>
+    <rect x="28" y="30" width="28" height="4" rx="2" fill="#2dd4bf"/>
+    <text x="28" y="60" class="t h">DATA &amp; SQL</text>
+    <g class="chip m" transform="translate(28 84)"><rect width="150" height="40" rx="10"/><circle cx="22" cy="20" r="6" fill="#3b82f6"/><text x="38" y="25">PostgreSQL</text></g>
+    <g class="chip m" transform="translate(190 84)"><rect width="160" height="40" rx="10"/><circle cx="22" cy="20" r="6" fill="#2dd4bf"/><text x="38" y="25">SQL</text></g>
+    <g class="chip m" transform="translate(28 136)"><rect width="150" height="40" rx="10"/><circle cx="22" cy="20" r="6" fill="#8fd3a0"/><text x="38" y="25">Star schema</text></g>
+    <g class="chip m" transform="translate(190 136)"><rect width="160" height="40" rx="10"/><circle cx="22" cy="20" r="6" fill="#64748b"/><text x="38" y="25">Data quality</text></g>
+    <text x="28" y="214" class="t" font-size="14" fill="#7d93ab">Layered warehouses, validated to the row</text>
+  </g>
+
+  <g class="in" style="animation-delay:.2s">
+    <rect class="card" x="410" y="1" width="380" height="248" rx="16"/>
+    <rect x="437" y="30" width="28" height="4" rx="2" fill="#f5b041"/>
+    <text x="437" y="60" class="t h">ANALYSIS &amp; ML</text>
+    <g class="chip m" transform="translate(437 84)"><rect width="150" height="40" rx="10"/><circle cx="22" cy="20" r="6" fill="#3b82f6"/><text x="38" y="25">Python</text></g>
+    <g class="chip m" transform="translate(599 84)"><rect width="160" height="40" rx="10"/><circle cx="22" cy="20" r="6" fill="#a78bfa"/><text x="38" y="25">pandas</text></g>
+    <g class="chip m" transform="translate(437 136)"><rect width="150" height="40" rx="10"/><circle cx="22" cy="20" r="6" fill="#f97316"/><text x="38" y="25">scikit-learn</text></g>
+    <g class="chip m" transform="translate(599 136)"><rect width="160" height="40" rx="10"/><circle cx="22" cy="20" r="6" fill="#ec4899"/><text x="38" y="25">Statistics</text></g>
+    <text x="437" y="214" class="t" font-size="14" fill="#7d93ab">Scorecards, fraud rules &amp; segmentation</text>
+  </g>
+
+  <g class="in" style="animation-delay:.35s">
+    <rect class="card" x="819" y="1" width="380" height="248" rx="16"/>
+    <rect x="846" y="30" width="28" height="4" rx="2" fill="#8fd3a0"/>
+    <text x="846" y="60" class="t h">BI &amp; DELIVERY</text>
+    <g class="chip m" transform="translate(846 84)"><rect width="150" height="40" rx="10"/><circle cx="22" cy="20" r="6" fill="#f2c811"/><text x="38" y="25">Power BI</text></g>
+    <g class="chip m" transform="translate(1008 84)"><rect width="160" height="40" rx="10"/><circle cx="22" cy="20" r="6" fill="#f5b041"/><text x="38" y="25">DAX</text></g>
+    <g class="chip m" transform="translate(846 136)"><rect width="150" height="40" rx="10"/><circle cx="22" cy="20" r="6" fill="#22a463"/><text x="38" y="25">Excel</text></g>
+    <g class="chip m" transform="translate(1008 136)"><rect width="160" height="40" rx="10"/><circle cx="22" cy="20" r="6" fill="#f05032"/><text x="38" y="25">Git</text></g>
+    <text x="846" y="214" class="t" font-size="14" fill="#7d93ab">Dashboards decision-makers act on</text>
+  </g>
+</svg>

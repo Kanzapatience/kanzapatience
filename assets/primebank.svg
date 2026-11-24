@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Flagship project: PrimeBank Financial Analytics Platform. Credit risk, fraud and customer analytics on 2.5 million rows, from PostgreSQL to Power BI.">
+  <defs>
+    <style>
+      .t{font-family:'Segoe UI',Inter,-apple-system,Helvetica,Arial,sans-serif}
+      .m{font-family:Consolas,'SFMono-Regular',Menlo,monospace}
+      .tile rect{fill:#111c2e;stroke:#2a3a52}
+      .v{font-size:30px;font-weight:700}
+      .l{font-size:13px;fill:#9fb3c8}
+      .box rect{fill:#0b1220;stroke:#2a3a52}
+      .bt{font-size:15px;font-weight:600;fill:#e6edf3}
+      .bs{font-size:12px;fill:#7d93ab}
+      .tag rect{fill:#111c2e;stroke:#2a3a52}
+      .tag text{font-size:12px;fill:#cdd9e5}
+      .flow{stroke-dasharray:4 6;animation:fl 1s linear infinite}
+      .in{animation:f .7s ease-out both}
+      @keyframes fl{from{stroke-dashoffset:10}to{stroke-dashoffset:0}}
+      @keyframes f{from{opacity:0}}
+    </style>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#10233a"/><stop offset="1" stop-color="#0d1a2c"/></linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#f5b041"/></linearGradient>
+  </defs>
+
+  <rect x=".5" y=".5" width="1199" height="439" rx="18" fill="url(#hero)" stroke="#24324a"/>
+
+  <!-- heading -->
+  <text x="48" y="58" class="m" font-size="12" fill="#2dd4bf" letter-spacing="2.5">FLAGSHIP PROJECT</text>
+  <text x="48" y="102" class="t" font-size="30" font-weight="700" fill="#e6edf3" letter-spacing="-.5">PrimeBank Financial Analytics Platform</text>
+  <text x="48" y="134" class="t" font-size="17" fill="#9fb3c8">Credit risk · Fraud detection · Customer analytics</text>
+  <rect x="48" y="150" width="64" height="4" rx="2" fill="url(#acc)"/>
+  <g class="t" font-size="15" fill="#9fb3c8">
+    <text x="48" y="184">An end-to-end analytics pipeline on a 2.5-million-row synthetic banking dataset,</text>
+    <text x="48" y="206">from raw CSVs to a layered PostgreSQL warehouse, predictive models in Python</text>
+    <text x="48" y="228">and a 5-page Power BI dashboard, all rebuilt by 16 re-runnable SQL scripts.</text>
+  </g>
+  <text x="48" y="262" class="m" font-size="13" fill="#f5b041">▸ One product = 42% of lending, but 63% of write-offs</text>
+
+  <!-- KPI tiles -->
+  <g class="in" style="animation-delay:.1s">
+    <g class="tile" transform="translate(720 48)"><rect width="208" height="92" rx="12"/><text x="20" y="48" class="t v" fill="#2dd4bf">2.5M</text><text x="20" y="72" class="t l">rows modelled end to end</text></g>
+    <g class="tile" transform="translate(944 48)"><rect width="208" height="92" rx="12"/><text x="20" y="48" class="t v" fill="#f5b041">KES 7.3bn</text><text x="20" y="72" class="t l">loan book analysed</text></g>
+    <g class="tile" transform="translate(720 156)"><rect width="208" height="92" rx="12"/><text x="20" y="48" class="t v" fill="#8fd3a0">0.48</text><text x="20" y="72" class="t l">out-of-time Gini, scorecard</text></g>
+    <g class="tile" transform="translate(944 156)"><rect width="208" height="92" rx="12"/><text x="20" y="48" class="t v" fill="#e6edf3">+68%</text><text x="20" y="72" class="t l">fraud caught, same team</text></g>
+  </g>
+
+  <!-- pipeline -->
+  <g class="in" style="animation-delay:.3s">
+    <g class="box" transform="translate(48 292)"><rect width="246" height="64" rx="10"/><circle cx="22" cy="32" r="6" fill="#64748b"/><text x="40" y="28" class="t bt">Raw CSVs</text><text x="40" y="47" class="m bs">2.5M rows · 7 defect types</text></g>
+    <g class="box" transform="translate(334 292)"><rect width="246" height="64" rx="10"/><circle cx="22" cy="32" r="6" fill="#3b82f6"/><text x="40" y="28" class="t bt">PostgreSQL warehouse</text><text x="40" y="47" class="m bs">raw → clean → star schema</text></g>
+    <g class="box" transform="translate(620 292)"><rect width="246" height="64" rx="10"/><circle cx="22" cy="32" r="6" fill="#2dd4bf"/><text x="40" y="28" class="t bt">Python models</text><text x="40" y="47" class="m bs">scorecard · fraud · k-means</text></g>
+    <g class="box" transform="translate(906 292)"><rect width="246" height="64" rx="10"/><circle cx="22" cy="32" r="6" fill="#f2c811"/><text x="40" y="28" class="t bt">Power BI</text><text x="40" y="47" class="m bs">5 pages · 38 DAX measures</text></g>
+    <g stroke="#2dd4bf" stroke-width="2" fill="none">
+      <path d="M298 324 H330" class="flow"/><path d="M584 324 H616" class="flow"/><path d="M870 324 H902" class="flow"/>
+    </g>
+  </g>
+
+  <!-- footer -->
+  <g class="tag m">
+    <g transform="translate(48 382)"><rect width="96" height="28" rx="14"/><text x="48" y="18" text-anchor="middle">POSTGRESQL</text></g>
+    <g transform="translate(152 382)"><rect width="48" height="28" rx="14"/><text x="24" y="18" text-anchor="middle">SQL</text></g>
+    <g transform="translate(208 382)"><rect width="70" height="28" rx="14"/><text x="35" y="18" text-anchor="middle">PYTHON</text></g>
+    <g transform="translate(286 382)"><rect width="110" height="28" rx="14"/><text x="55" y="18" text-anchor="middle">SCIKIT-LEARN</text></g>
+    <g transform="translate(404 382)"><rect width="80" height="28" rx="14"/><text x="40" y="18" text-anchor="middle">POWER BI</text></g>
+    <g transform="translate(492 382)"><rect width="48" height="28" rx="14"/><text x="24" y="18" text-anchor="middle">DAX</text></g>
+  </g>
+  <g transform="translate(972 380)">
+    <rect width="180" height="32" rx="16" fill="#2dd4bf"/>
+    <text x="90" y="21" text-anchor="middle" class="t" font-size="14" font-weight="600" fill="#0b1220">View repository ↗</text>
+  </g>
+</svg>

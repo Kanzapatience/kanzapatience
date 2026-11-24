@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Patience, Business Intelligence and Data Analyst: SQL, Python, Power BI, PostgreSQL, DAX">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#0f1a2b"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#f5b041"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1e2a3d" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+    <style>
+      .t{font-family:'Segoe UI',Inter,-apple-system,Helvetica,Arial,sans-serif}
+      .m{font-family:Consolas,'SFMono-Regular',Menlo,monospace}
+      .draw{stroke-dasharray:1400;animation:d 2.6s ease-out both}
+      .fade{animation:f 1s ease-out 1.6s both}
+      .bar{transform-origin:bottom;transform-box:fill-box;animation:g .9s cubic-bezier(.2,.8,.2,1) both}
+      .pulse{animation:p 2.4s ease-in-out infinite}
+      .cursor{animation:b 1s steps(1) infinite}
+      @keyframes d{from{stroke-dashoffset:1400}}
+      @keyframes f{from{opacity:0}}
+      @keyframes g{from{transform:scaleY(0)}}
+      @keyframes p{0%,100%{r:5;opacity:1}50%{r:9;opacity:.35}}
+      @keyframes b{50%{opacity:0}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)" opacity=".55"/>
+
+    <!-- line chart, right side -->
+    <path d="M620 250 L690 214 L760 228 L830 170 L900 186 L970 120 L1040 138 L1110 72 L1160 84 L1160 320 L620 320Z" fill="url(#area)" class="fade"/>
+    <path d="M620 250 L690 214 L760 228 L830 170 L900 186 L970 120 L1040 138 L1110 72 L1160 84" fill="none" stroke="url(#line)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" class="draw"/>
+    <g class="fade" fill="#0b1220" stroke-width="2.5">
+      <circle cx="830" cy="170" r="5" stroke="#2dd4bf"/>
+      <circle cx="970" cy="120" r="5" stroke="#8fd3a0"/>
+    </g>
+    <circle cx="1110" cy="72" r="5" fill="#f5b041" class="pulse"/>
+
+    <!-- mini bars -->
+    <g opacity=".9">
+      <rect x="660" y="282" width="18" height="38" rx="3" fill="#1f3b4d" class="bar" style="animation-delay:.2s"/>
+      <rect x="730" y="270" width="18" height="50" rx="3" fill="#1f3b4d" class="bar" style="animation-delay:.3s"/>
+      <rect x="800" y="276" width="18" height="44" rx="3" fill="#1f3b4d" class="bar" style="animation-delay:.4s"/>
+      <rect x="870" y="258" width="18" height="62" rx="3" fill="#1f3b4d" class="bar" style="animation-delay:.5s"/>
+      <rect x="940" y="264" width="18" height="56" rx="3" fill="#1f3b4d" class="bar" style="animation-delay:.6s"/>
+      <rect x="1010" y="246" width="18" height="74" rx="3" fill="#24485c" class="bar" style="animation-delay:.7s"/>
+      <rect x="1080" y="236" width="18" height="84" rx="3" fill="#2a5a6b" class="bar" style="animation-delay:.8s"/>
+    </g>
+
+    <!-- KPI chip -->
+    <g class="fade" transform="translate(956 26)">
+      <rect width="208" height="34" rx="17" fill="#111c2e" stroke="#2a3a52"/>
+      <circle cx="20" cy="17" r="4" fill="#2dd4bf"/>
+      <text x="34" y="22" class="m" font-size="13" fill="#9fb3c8">scorecard <tspan fill="#f5b041">Gini 0.48</tspan></text>
+    </g>
+
+    <!-- text block -->
+    <text x="64" y="92" class="m" font-size="16" fill="#2dd4bf">SELECT * FROM curiosity;<tspan class="cursor" fill="#f5b041">▍</tspan></text>
+    <text x="62" y="158" class="t" font-size="56" font-weight="700" fill="#e6edf3" letter-spacing="-1">Patience</text>
+    <text x="64" y="198" class="t" font-size="20" fill="#9fb3c8" letter-spacing="2.5">BUSINESS INTELLIGENCE &amp; DATA ANALYST</text>
+    <rect x="64" y="216" width="72" height="4" rx="2" fill="url(#line)"/>
+
+    <g class="m" font-size="14">
+      <g transform="translate(64 244)">
+        <rect width="62" height="30" rx="8" fill="#111c2e" stroke="#2a3a52"/><text x="31" y="20" text-anchor="middle" fill="#cdd9e5">SQL</text>
+      </g>
+      <g transform="translate(136 244)">
+        <rect width="86" height="30" rx="8" fill="#111c2e" stroke="#2a3a52"/><text x="43" y="20" text-anchor="middle" fill="#cdd9e5">Python</text>
+      </g>
+      <g transform="translate(232 244)">
+        <rect width="96" height="30" rx="8" fill="#111c2e" stroke="#2a3a52"/><text x="48" y="20" text-anchor="middle" fill="#cdd9e5">Power BI</text>
+      </g>
+      <g transform="translate(338 244)">
+        <rect width="108" height="30" rx="8" fill="#111c2e" stroke="#2a3a52"/><text x="54" y="20" text-anchor="middle" fill="#cdd9e5">PostgreSQL</text>
+      </g>
+      <g transform="translate(456 244)">
+        <rect width="56" height="30" rx="8" fill="#111c2e" stroke="#2a3a52"/><text x="28" y="20" text-anchor="middle" fill="#cdd9e5">DAX</text>
+      </g>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="319" rx="18" fill="none" stroke="#24324a"/>
+</svg>
